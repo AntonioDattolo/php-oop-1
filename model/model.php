@@ -7,7 +7,7 @@ class movie
     public $voto;
     public $lingua;
 
-     public function writing()
+     public function print()
      {
          return "$this->nome uscita: $this->uscita Voto : $this->voto Lingua : $this->lingua";
     }

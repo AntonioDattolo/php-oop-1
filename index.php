@@ -29,19 +29,17 @@ $movies = [
     <header class="container">
         <h1>OOP</h1>
     </header>
-<main class="container">
-    <section>
-
-        
-        <ul>
-            <h5>Lista Film</h5>
-            <?php foreach ($movies as $movie) { ?>
-                <li><?= $movie->writing() ?></li>
+    <main class="container">
+        <section>
+            <ul>
+                <h5>Lista Film</h5>
+                <?php foreach ($movies as $movie) { ?>
+                    <li><?= $movie->print() ?></li>
                 <?php } ?>
             </ul>
-            <!-- <script src="./js/main.js"></script> -->
-        </main>
-    </section>
+        </section>
+    </main>
+    <!-- <script src="./js/main.js"></script> -->
 </body>
 
 </html>
